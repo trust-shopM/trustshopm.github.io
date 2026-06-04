@@ -364,7 +364,7 @@
         let STORE_NAME = "TRUST شاپ";
         let RUBIKA_USERNAME = "trust_Rubx1";
         const ADMIN_PASSWORD = "trust1403";
-
+        // ************** محصولات **************
         let products = [
             { id: 1, name: "هدفون بی‌سیم شیائومی", priceValue: 1200000, oldPrice: 1500000, discountPercent: 20, discountDurationHours: 24, category: "کالای دیجیتال", stock: 2, dateAdded: 1700000000000, fullDesc: "🎧 هدفون بی‌سیم شیائومی\n✅ بلوتوث ۵.۳\n✅ باتری ۳۰ ساعته", images: ["https://via.placeholder.com/400x400/f8f8f8/3f4064?text=هدفون+1","https://via.placeholder.com/400x400/f8f8f8/3f4064?text=هدفون+2"] },
             { id: 2, name: "ساعت هوشمند سامسونگ", priceValue: 4200000, oldPrice: null, discountPercent: 0, discountDurationHours: 0, category: "کالای دیجیتال", stock: 0, dateAdded: 1700100000000, fullDesc: "⌚ گلکسی واچ ۶\n💧 ضدآب ۵ATM", images: ["https://via.placeholder.com/400x400/f8f8f8/3f4064?text=ساعت"] },
@@ -378,19 +378,19 @@
                 p.discountEndTime = Date.now() + p.discountDurationHours * 3600000;
             }
         });
-
+        // ************** بنر۲ **************
         let banners = [
             "https://via.placeholder.com/1200x200/ef4056/ffffff?text=🛍️+تخفیف‌های+ویژه",
             "https://via.placeholder.com/1200x200/3f4064/ffffff?text=ارسال+رایگان+سفارشات",
             "https://via.placeholder.com/1200x200/008eb2/ffffff?text=محصولات+جدید"
         ];
-
+        // ************** اعلانات زنگوله**************
         let notificationsData = [
             { title: "🚀 ارسال رایگان", text: "برای سفارش‌های بالای ۵۰۰ هزار تومان", time: "۲ ساعت پیش" },
             { title: "🎉 تخفیف ویژه", text: "۳۰٪ تخفیف تمام محصولات تا آخر هفته", time: "دیروز" },
             { title: "📦 محصول جدید", text: "ساعت هوشمند جدید به فروشگاه اضافه شد", time: "۳ روز پیش" }
         ];
-
+        // ************** کدهای تخفیف **************
         let coupons = [
             { code: "TRUST10", percent: 10, maxDiscount: 50000, expiry: "2025-12-31" },
             { code: "WELCOME20", percent: 20, maxDiscount: 100000, expiry: "2025-06-01" }
